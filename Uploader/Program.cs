@@ -1,12 +1,22 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using Uploader.Logic;
 
 namespace Uploader
 {
-    class Program
+    /// <summary>
+    /// Основной класс программы.
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Основной метод программы, запускает само приложение.
+        /// </summary>
+        /// <param name="args"> Аргументы, переданные с запуском приложения из консоли. </param>
+        public static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var filePath = args[0];
+            var transferHandler = new TransferHandler();
+            await transferHandler.TransferToDbAsync(filePath);
         }
     }
 }
