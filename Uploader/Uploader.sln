@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uploader", "Uploader.csproj", "{21BA4854-23AF-4110-B11A-370FBBC391C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uploader", "Uploader.csproj", "{21BA4854-23AF-4110-B11A-370FBBC391C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "..\DataModel\DataModel.csproj", "{A44309FC-47D8-4952-B80D-D7C050C82C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "..\DataModel\DataModel.csproj", "{A44309FC-47D8-4952-B80D-D7C050C82C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uploader.Tests", "..\Uploader.Tests\Uploader.Tests.csproj", "{A647C1E5-FCE5-419B-9C5A-3591C1E7D277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A44309FC-47D8-4952-B80D-D7C050C82C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A44309FC-47D8-4952-B80D-D7C050C82C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A44309FC-47D8-4952-B80D-D7C050C82C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A647C1E5-FCE5-419B-9C5A-3591C1E7D277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A647C1E5-FCE5-419B-9C5A-3591C1E7D277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A647C1E5-FCE5-419B-9C5A-3591C1E7D277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A647C1E5-FCE5-419B-9C5A-3591C1E7D277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
