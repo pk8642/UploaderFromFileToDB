@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Uploader.PresentationLayer;
 
-namespace Uploader.PresentationLayer
+namespace Uploader.Logic
 {
     /// <summary>
     /// Класс для обработки входных данных.

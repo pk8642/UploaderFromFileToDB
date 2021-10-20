@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using DataModel.Storages.Word;
 using DataModel.Storages.Word.Models;
 
 namespace Uploader.Services
